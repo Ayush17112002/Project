@@ -1,0 +1,40 @@
+.quiz{
+    color:white;
+}
+
+.container{
+    display: flex;
+}
+.question{
+    margin: 2.5rem; 
+}
+.question .name{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    vertical-align: top; 
+}
+.checkBox{
+    display: flex;
+}
+.checkBoxInput{
+    background-color: blue;
+    margin: 1.25rem; 
+    width: 1.25rem; 
+    height: 1.25rem; 
+}
+.checkBoxInput:checked{
+    background-color: blue;
+}
+.btn{
+    position: absolute; 
+    right: 0; 
+    bottom: 0; 
+    margin-right: 1.25rem; 
+    margin-bottom: 1.25rem; 
+    border-radius: 0.375rem; 
+    width: 7rem; 
+    height: 2.5rem; 
+    font-weight: 600; 
+    background-color: #EF4444; 
+}

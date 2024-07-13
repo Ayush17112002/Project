@@ -1,0 +1,15 @@
+.tabs{
+    display: grid;
+    grid-auto-flow: row; 
+    gap: 0.5rem; 
+    width: 25%; 
+    height: 100vh; 
+    color: white;
+}
+.index{
+    border-width: 4px; 
+    border:1px solid white; 
+}
+.index.checked{
+    background-color: #34D399; 
+}

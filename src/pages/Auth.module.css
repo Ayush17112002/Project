@@ -1,0 +1,56 @@
+.auth{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #374CE7;
+    font-size: larger;
+    padding:50px;
+    border-radius: 10px;
+    gap:20px;
+}
+.auth .container .box{
+    width: 15rem;
+}
+.auth .container .box .input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    text-align: start;
+    display: flex;
+    border-radius: 5px;
+}
+
+.auth .container .box label{
+    padding: 5px;
+    width: 100%;
+    text-align: start;
+    display: flex;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btns{
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    filter: brightness(80%);
+    text-decoration: none;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    background-color: aliceblue;
+    width: 45%;
+}

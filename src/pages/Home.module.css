@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: larger;
+    background-color: red;
+    font-weight: bold;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
